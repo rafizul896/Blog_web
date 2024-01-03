@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #EAEAEA;
+}
+
+.nav-container {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 170px;
+    height: 130px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 17px;
+    color: #222222;
+    letter-spacing: 1px;
+}
+
+.nav-items .btn {
+    background-color: #0066F9;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.nav-items a:hover {
+    border-bottom: 4px solid #0066F9;
+}
+
+.nav-items a:first-child {
+    border-bottom: 4px solid #0066F9;
+}
+
+/* main section start here */
+main {
+    height: 900px;
+}
+
+.main-text {
+    line-height: 1.5rem;
+}
+
+.main-text h1 {
+    font-size: 2.5rem;
+    font-weight: 550;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.main-text p {
+    margin-top: 10px;
+    font-size: 1rem;
+    letter-spacing: .7px;
+}
+
+.main-hr {
+    border-top: 1px solid #000000;
+    margin-top: 25px;
+}
+
+.pp p{
+    font-size: 1.2rem;
+    color: rgb(138, 102, 102);
+    line-height: 70px;
+}
+
+.main-box {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    line-height: 40px;
+    background-color: #eaeaea;
+}
+
+.box p,h3 {
+    padding-left: 35px;
+}
+
+.ppp {
+    padding-bottom: 50px;
+}
+
+.box div img {
+    width: 500px;
+    height: auto;
+}
+
+.box  button {
+    font-size: 1rem;
+    font-weight: 700;
+    height: 40px;
+    width: 70px;
+    background-color: #7D4CDB;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: none;
+    margin-left: 230px;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+}
+
+.box p {
+    font-size: .9rem;
+    
+}
+
+.box h3 {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.all a {
+    line-height: 100px;
+    font-size: 1.2rem;
+    color: #0066F9;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* main section end here */
+
+/* footer section start here */
+.footer-hr {
+    border-top: 1px solid #EAEAEA;
+}
+
+footer {
+    height: 200px;
+    line-height: 30px;
+}
+
+.icons {
+    color: #0066F9;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-size: 17px;
+    color: #000000;
+}
+
+.footer-text a {
+    text-decoration: none;
+    font-weight: 530;
+}
+/* footer End here */
+

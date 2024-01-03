@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+
+    <!--Top Navbar start-->
+    <nav>
+        <div class="container nav-container">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img src="blog_img/web-logo.svg" alt="brand-logo">
+                </a>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#" class="btn border-link">Button</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Top Navbar End-->
+
+    <!--Main content area Staet here-->
+    <section class="container">
+        <div class="container1">
+            <h1>Sign Up</h1>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <input type="submit" value="Sign Up">
+            </form>
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </section>
+    <!--Main content area End-->
+
+    <!--Footer Start here-->
+    <hr class="footer-hr">
+    <footer class="container">
+        <div class="icons">
+            <i class='bx bxl-github'></i>
+            <i class='bx bxl-twitter' ></i>
+        </div>
+        <div class="footer-text">
+            <p>Iceberg Gatsby is a PWA, save it for offline reading. <a href="#">See more PWA here.</a></p>
+            <p>Maintained by <a href="#@_diogorodrigues."></a> You can always contribute with the project on <a href="#">Github.</a></p>
+        </div>
+    </footer>
+    <!--Footer End here-->
+
+
+</body>
+</html>
